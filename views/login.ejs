@@ -31,13 +31,13 @@
                             <h3 class="fs-24">Sign into your account!</h3>
                             <p class="text-muted text-center mb-0">Nice to see you! Please log in with your account.</p>
                         </div>
-                        <form class="register-form">
+                        <form class="register-form" action="/signin" method="post">
                             <div class="form-group">
-                                <input type="email" class="form-control" id="emial" placeholder="Enter email">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
                                 <div class="invalid-feedback text-left">Enter your valid email</div>
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" id="pass" placeholder="Password">
+                                <input type="password" class="form-control" id="pass" name="pass" placeholder="Password">
                                 <div class="invalid-feedback text-left">Enter valid password</div>
                             </div>
                             <div class="custom-control custom-checkbox mb-3">
