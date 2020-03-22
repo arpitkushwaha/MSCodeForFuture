@@ -6,24 +6,16 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.set("view engine",'ejs');
 app.use(express.static(__dirname+"/public"));
 
-  app.get("/",function(req,res)
-  {
-      res.render("home");
-  });
-
-
 // ======================== LOGIN ========================
-app.get("/signin",function(req,res)
+app.get("/",function(req,res)
 {
     res.render("login");
 });
 
-app.post('/signin',function(req,res){
+app.post('/',function(req,res){
 
     var email = req.body.email;
     var password = req.body.pass;
-    console.log("Email : " + email);
-    console.log("Password : " + password);
 
     if(email !="" && password !="")
         res.render("dashboard");
