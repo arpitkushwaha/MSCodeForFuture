@@ -64,15 +64,15 @@ The circuit connections are made as follows:<br>
 
 - **Total Power Consumption :**
 
-<br><img src="public/assets/dist/img/readme/webapp_totalpowerconsumption.png" height="300"><br><br>
+<br><img src="public/assets/dist/img/readme/webapp_totalpowerconsumption.PNG" height="300"><br><br>
 
 - **Power Consumption with AC and without AC:**
 
-<br><img src="public/assets/dist/img/readme/webapp_powerconsumptionac.png" height="300"><br><br>
+<br><img src="public/assets/dist/img/readme/webapp_powerconsumptionac.PNG" height="300"><br><br>
 
 - **Power Consumption per Workstation :**
 
-<br><img src="public/assets/dist/img/readme/webapp_employeedetails.png" height="300"><br><br><br>
+<br><img src="public/assets/dist/img/readme/webapp_employeedetails.PNG" height="300"><br><br><br>
 
  
   
