@@ -20,6 +20,8 @@ Let’s quickly understand how it all works:<br>
 5.	All of the previously mentioned data via the microcontroller would be sent to the backend of the application being used to keep tabs on all of this.<br><br>
 6.	The application would then be able to generate reports and in depth predictions for each and every employees as well as heavy consumption electronic devices that could be reviewed on a weekly or monthly basis.<br><br>
 
+YouTube link: https://youtu.be/LQ96yvRnSMY
+
 ## Quick setup guide (Hardware):
 
 ### 1.	What is a PIR sensor?
