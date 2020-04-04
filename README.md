@@ -1,9 +1,8 @@
 # Microsoft Code For Future
 
 ## Abstract of idea:
-
-Smart intelligent interconnected system for best and accurate results, it is software centric so we can collect data from sensors and other methods and visualize and track usage patterns easily.
 Smart/intelligent Realtime worker v/s power consumed tracker is a simple yet highly robust and useful idea, capable of solving the issue of monitoring the use of heavy power consuming devices that may lead to increase in the global carbon footprint.
+Smart intelligent interconnected system for best and accurate results, it is software centric so we can collect data from sensors and other methods and visualize and track usage patterns easily.
 Let’s quickly understand how it all works:<br>
 1.	The first step would be to install an interconnected grid of PIR sensors on each workstation each of which would be connect to a centralized microcontroller<br><br>
 2.	With PIR sensor we would be able to track the presence of a human Infront of his or her workstation, which would thus enable us to focus on two things, namely :
@@ -23,8 +22,37 @@ Let’s quickly understand how it all works:<br>
 YouTube link: https://youtu.be/LQ96yvRnSMY
 
 ## Architectural design of the system :
+- **Carry out an energy audit** 
+    - According to the U.S. Department of Energy, heating and cooling is responsible for around 48% of energy usage in a building.
+      For businesses that don't bother to carry out an energy audit of their building, which analyzes the cost and efficiency of the electricity consumed at 
+      business, they can expect to consume higher levels of energy and pay more for their bills.
+      By simply carrying out an energy audit, you can expect to minimize energy waste and make vital energy improvements.
+      Our platform makes it easy to carry out energy audit without putting in much effort.
+
+- **Unplug phone chargers** 
+    - What are now a ubiquitous feature of working environments drain energy even when they're not in use. Rather than having unused phone chargers left at
+      workstations consuming energy all day and night, make sure phone chargers are unplugged when they're not in use.
+      Monitoring charging points would help in curbing this practice to a great extent.
+
+- **Turn Off Lights in unoccupied rooms** 
+    - No matter what types of lightbulbs you have at work, if they are left on when a room is unoccupied, they will use electricity that is not required.
+
+      ```
+      As CMD notes: 
+       "Failing to switch off office lights overnight consumes enough energy in one year to heat a home for five months."
+      ```
+      The solution is simple — switch off lights when a room is empty!
+
+- **Turn Off PCs When Not in Use** 
+    - According to recent research by power solutions company CMP, office PCs are typically left unattended each day for an average of two hours, which uses around 0.2
+      kilowatts of wasted electricity.
+
+
+***Source** : US department of Energy/ CMD(power solutions company)* 
 
 <br><img src="public/assets/dist/img/readme/architecture_design.jpeg" height="1000"><br><br>
+
+*To implement this architecture and have it work, we have used a variety of Azure components. The main platform that is responsible for aggregation of all data as well as users uses the **Azure app engine** and **CosmoDB**. Whereas, to work on the machine learning model we have used **Azure Machine Learning Studio** since it provides a highly intuitive environment to work with and makes the process of data analysis very easy when, compared to existing platforms. And finally the whole project, as mentioned has been deployed using Azure as well.*
 
 
 
