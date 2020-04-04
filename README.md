@@ -22,6 +22,12 @@ Let’s quickly understand how it all works:<br>
 
 YouTube link: https://youtu.be/LQ96yvRnSMY
 
+## Architectural design of the system :
+
+<br><img src="public/assets/dist/img/readme/architecture_design.jpeg" height="1000"><br><br>
+
+
+
 ## Quick setup guide (Hardware):
 
 ### 1.	What is a PIR sensor?
@@ -66,7 +72,7 @@ The circuit connections are made as follows:<br>
 
 - **Total Power Consumption :**
 
-<br><img src="public/assets/dist/img/readme/webapp_totalpowerconsumption.PNG" height="300"><br><br>
+<br><img src="public/assets/dist/img/readme/webapp_totalpowerconsumption.PNG" height="400"><br><br>
 
 - **Power Consumption with AC and without AC:**
 
@@ -74,7 +80,7 @@ The circuit connections are made as follows:<br>
 
 - **Power Consumption per Workstation :**
 
-<br><img src="public/assets/dist/img/readme/webapp_employeedetails.PNG" height="300"><br><br><br>
+<br><img src="public/assets/dist/img/readme/webapp_employeedetails.PNG" height="400"><br><br><br>
 
  
   
